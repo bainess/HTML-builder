@@ -6,20 +6,6 @@ const {stdin: input, stdout: output } = require('node:process');
 const { stdin } = require('process');
 const os = require('node:os');
 
-
-// let createAndWrite = fs.writeFile(`${regularPath}/temp.txt`, 'some string', function (er) {
-//   if (er) throw err;
-//   
-// })
-
-// let writer = fs.createWriteStream('')
-
-// let writer = fs.appendFile(`${regularPath}/temp.txt`,`${answer}`,  (err) => {
-    //   if (err) throw err; 
-    //   writer.write(answer)
-    // });
-
-
 fs.writeFile(`${regularPath}/temp.txt`, 'some string', function (er) {
   if (er) throw err;
 })
