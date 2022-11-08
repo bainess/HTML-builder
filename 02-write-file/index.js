@@ -16,6 +16,7 @@ const main = async() => {
   while (true) {
     answer += `${await rl.question('When is your date of birth?\r\n')}`;
     if(answer.indexOf('exit') !== -1 || answer === 'SIGINT') {
+      console.log('The end');
       rl.close();
       return;
     }
